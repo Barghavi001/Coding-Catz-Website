@@ -1,6 +1,14 @@
 body {
     background-color: #9FEDFF;
-    
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:5%;
+    margin-top:5%;
+}
+
+img .logo {
+    height: 150px;
+    width: 100%;
 }
 
 h3{
@@ -13,39 +21,97 @@ h3{
 		-1px 1px 0 #000,
 		1px 1px 0 #000;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9FEDFF;
+    margin-bottom: 10px;
+}
 
-.navbar{
-  width:100%;
+#buttonsnavbar{
+    font-family:Verdana, Geneva, sans-serif;
+    color: #9F7AFF;
+    
 }
-.navbar{
-  list-style: none;
-   margin: 0;
-   padding: 0;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9FEDFF;
 }
-.navbar li
-{
-  width:100px;
-  height:40px;
-  background-color: #A0A0A0;
-display:block;
-float: left;
+
+li {
+    float: left;
 }
-.navbar li:hover
-{
-  background-color: #FF0000;
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
 }
+
+li a:hover {
+    background-color: #9F7AFF;
+}
+
+.active {
+    background-color: #19FF8C;
+}
+
 .centered{
   text-align: center;
 }
+
 
 #donatedescription{
   width:750px;
 }
 
 .marginscenter{
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 50px;
+  margin-right: 50px;
 }
+
+#aboutus {
+   color: #6A1B9A;
+   margin-right: 50px;
+   padding: 50px;
+   border-width: 2px ;
+}
+
+
+#aboutus{
+  border-width: 2px ;
+  border-color: #6A1B9A;
+}
+
+
+p{ 
+  font-size: 200%;
+  width: 100%;
+  color: #6A1B9A;
+  text-align: centre;
+}
+
+
+#frequency { 
+  color: #6A1B9A;
+  font-size: 200%;
+  padding: 20px;
+}
+
+#money-amount {
+  color: #6A1B9A;
+  font-size: 200%;
+  padding: 20px;
+}
+
 #donation-box{
   width: 48%;
   float:left;
@@ -54,11 +120,92 @@ float: left;
 #donation-box div{
   height: 150px;
 }
+.cat-profile{
+  display: none;
+  float:left;
+  width: 700px;
+}
+.cat-profile.active{
+  display: block;
+}
+.cat-profile img{
+  width: 300px;
+  height: 300px;
+  float:left;
+}
+.cat-profile div
+{
+  float:left;
+}
+#contact-form{
+  width:1000px
+
+}
+
 .borders{
   border: 2px solid black;
 }
-.standard-image{
-  width: 48%;
-  float: left;
-  height: 308px;
+
+
+
+.about-image{
+  width: 300px;
+  float: right;
+  height:220px;
+}
+#aboutus{
+  border-width: 2px ;
+  border-color: #6A1B9A;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+#map{
+width:700px;
+height:500px;
+margin: 10px auto;
+border: 2px solid black
+}body {
+    background-color: #9FEDFF;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:5%;
+    margin-top:5%;
+}
+
+.borders{
+  border: 2px solid black;
+}
+
+
+#aboutus{
+  border: 2px solid black;
 }
